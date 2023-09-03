@@ -1,0 +1,35 @@
+header .bg-main2 {
+    background-color: var(--colorDarkBlue);
+    background-image: url(../images/Svg/Bg1.svg);
+    padding: 20px;
+}
+
+header span, header a{
+    font-family: robotothin;
+    font-size: 20px;
+    color: #3f6584;
+    font-weight: 100;
+}
+
+header a {
+    color: #caddea;
+}
+
+.bg-main2 a:has(img) img{
+    width: 35px;
+    margin-left: 5px;
+}
+
+.bg-main2 .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-main2 .item2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg-main2 .item2 .login{
+    margin-right: 70px;
+}
