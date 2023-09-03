@@ -1,0 +1,44 @@
+@import url(./null.css);
+@import url(./root.css);
+@import url(../fonts/fonts.css);
+
+/* ---------------- */
+
+h1 {
+    font-family: robotobold;
+    font-size: 32px;
+    color: var(--colorH1);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: robotobold;
+    font-size: 28px;
+    color: var(--colorH2);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: robotomedium;
+    font-size: 22px;
+    color: var(--colorH3);
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: robotobold;
+    font-size: 18px;
+    color: var(--colorH4);
+    text-transform: uppercase;
+}
+
+p.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: var(--colorText);
+}
+
+
+/* ---------------- */

@@ -1,0 +1,25 @@
+:root {
+    --colorLightBlue: #1b7fd0;
+    --colorDarkBlue: #013056;
+    /* ---------------- */
+    --colorH1: #1b7fd0;
+    --colorH2: #1b7fd0;
+    --colorH3: #000;
+    --colorH4: #1b7fd0;
+    --colorH5: #1b7fd0;
+    --colorH6: #1b7fd0;
+    --colorText: #000;
+    /* ---------------- */
+    --colorBtnReadMore: #075da2;
+    --colorBtnReadMoreHover: #caddea;
+    /* ---------------- */
+    --colorBtnSendMassege: #1b7fd0;
+    --colorBtnSendMassegeHover: #caddea;
+    /* ---------------- */
+    --colorBtnOrderNow: #d00;
+    --colorBtnOrderNowHover: #a40000;
+    /* ---------------- */
+    --colorBtnText: #fff;
+    --colorBtnTextHover: #1b7fd0;
+
+} 
