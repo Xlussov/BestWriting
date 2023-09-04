@@ -3,6 +3,7 @@
 @import url(../fonts/fonts.css);
 @import url(./bootstrap-grid.min.css);
 @import url(../style/header.css);
+@import url(../style/startpage.css);
 
 /* ---------------- */
 
@@ -41,6 +42,5 @@ p.text {
     font-size: 18px;
     color: var(--colorText);
 }
-
 
 /* ---------------- */

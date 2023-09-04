@@ -25,6 +25,15 @@ header a {
     justify-content: space-between;
 }
 
+.bg-main2 .item1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bg-main2 .item1 .num{
+    margin-left: 35px;
+}
+
 .bg-main2 .item2 {
     display: flex;
     justify-content: flex-end;
