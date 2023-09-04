@@ -1,7 +1,7 @@
 nav .bg-main1 {
     background-color: var(--colorLightBlue);
     box-shadow: 2px 3.5px 7px 0 #95aeb6;
-    padding: 8px;
+    /* padding: 8px; */
     transition: 400ms all ease-in-out;
 }
 
@@ -30,4 +30,67 @@ nav .bg-main1 {
 .navbar li:hover a, .navbar li:active a {
     transition: 400ms all ease-in-out;
     color: #1b7fd0;
+}
+
+/*! ------------------------------------------------ */
+.ss-content {
+    background: url(../images/Layer\ 11.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.ss-content__plank h1 {
+    box-shadow: 2px 3.5px 7px 0 rgba(155, 182, 190, 0.75);
+    background-color: #caddea;
+    padding: 20px 55px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.ss-content__list li {
+    list-style-image: url(../images/Svg/Ellipse.svg);
+    margin-left: 20px;
+    
+}
+
+.ss-content__list h3 {
+    margin-left: 20px;
+}
+
+.ss-content__list p{
+    line-height: 1.83;
+}
+
+.ss-content__button  .items p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorLightBlue);
+    text-align: center;
+    margin: 10px;
+}
+
+.ss-content__button .items {
+    min-width: 235px;
+    border: 1px solid var(--colorLightBlue);
+}
+
+.ss-content__button .rows {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.ss-content__logo {
+    margin-bottom: 30px;
+}
+
+.ss-content__plank {
+    margin-bottom: 20px;
+}
+
+.ss-content__list {
+    margin-bottom: 35px;
 }
