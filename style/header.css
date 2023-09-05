@@ -5,6 +5,7 @@ header .bg-main2 {
 }
 
 header span, header a{
+    transition: 200ms all ease-in-out;
     font-family: robotothin;
     font-size: 20px;
     color: #3f6584;
@@ -12,6 +13,7 @@ header span, header a{
 }
 
 header a {
+    transition: 200ms all ease-in-out;
     color: #caddea;
 }
 
@@ -41,4 +43,46 @@ header a {
 
 .bg-main2 .item2 .login{
     margin-right: 70px;
+}
+
+
+.login::after {
+    transition: 200ms all ease-in-out;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/Svg/Login.svg);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.live__chat::after {
+    transition: 200ms all ease-in-out;
+    content: '';
+    display: inline-block;
+    background-image: url(../images/Svg/Chat.svg);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.login:hover::after {
+    transition: 200ms all ease-in-out;
+    background-image: url(../images/Svg/Login2.svg);
+}
+
+.live__chat:hover::after {
+    transition: 200ms all ease-in-out;
+    background-image: url(../images/Svg/Chat2.svg);
+}
+
+.login:hover, .live__chat:hover {
+    transition: 200ms all ease-in-out;
+    color: var(--colorBtnTextHover);
 }

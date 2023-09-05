@@ -1,0 +1,43 @@
+nav .bg-main1 {
+    background-color: var(--colorLightBlue);
+    box-shadow: 2px 3.5px 7px 0 #95aeb6;
+    transition: 400ms all ease-in-out;
+}
+
+.navbar a{
+    font-family: robotoregular;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 400ms all ease-in-out;
+}
+
+.navbar li div{
+    margin: 12px 29px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar li:hover, .navbar li:active{
+    transition: 400ms all ease-in-out;
+    background-color: #caddea;
+}
+
+.navbar li:hover a, .navbar li:active a {
+    transition: 400ms all ease-in-out;
+    color: #1b7fd0;
+}
+
+.vl {
+    transform: rotate(180deg);
+    border: 2px solid white;
+    border-radius: 2px;
+    height: 20px;
+    display: block;
+}
+
