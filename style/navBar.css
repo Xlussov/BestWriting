@@ -24,9 +24,13 @@ nav .bg-main1 {
 }
 
 .navbar li:hover, .navbar li:active{
-    transition: 400ms all ease-in-out;
+    /* transition: 400ms background-color ease-in-out;  */
     background-color: #caddea;
+    box-shadow: 5px 0px 0px 0px #caddea,
+            -5px 0px 0px 0px #caddea;
+    z-index: 1;
 }
+
 
 .navbar li:hover a, .navbar li:active a {
     transition: 400ms all ease-in-out;
@@ -38,6 +42,8 @@ nav .bg-main1 {
     border: 2px solid white;
     border-radius: 2px;
     height: 20px;
-    display: block;
+    z-index: 0;
 }
+
+
 
