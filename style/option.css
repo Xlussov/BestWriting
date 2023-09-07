@@ -1,6 +1,6 @@
 .option {
     background-color: #075da2;
-    background-image: url(../images/Svg/Bg1-1.svg);
+    background-image: url(../images/Svg/Bg3.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -182,7 +182,7 @@
     display: flex;
     justify-content: center;
     align-items: center; */
-}
+/* } */
 
 /* .order {
     filter: drop-shadow(2px 3.5px 7px rgba(155, 182, 190, 0.75));

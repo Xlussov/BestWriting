@@ -45,6 +45,7 @@
 }
 
 .card {
+    
     background-color: #f4f6fa;
     background-image: url(../images/Svg/Bg3.svg);
     background-repeat: no-repeat;
@@ -52,4 +53,150 @@
     background-position: top;
     padding: 30px;
     position: relative;
+}
+
+.card__items {
+    margin-top: 80px;
+}
+
+.cards ul li::before {
+    content: '●';
+    margin-right: 5px;
+}
+
+.cards ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 0px; */
+}
+
+.cards > .text {
+    font-size: 16px;
+}
+
+.cards > .mh {
+    font-size: 16px;
+    flex: 1 1 auto;
+}
+
+.button__flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* .cards .item1 > p {
+    font-size: 16px;
+    flex: 1 1 auto;
+}
+.cards .item2 > p {
+    font-size: 16px;
+    flex: 1 1 auto;
+}
+
+.cards .item3 ul{
+    font-size: 16px;
+    flex: 1 1 auto;
+}
+
+.cards .item4 ul{
+    font-size: 16px;
+    flex: 1 1 auto;
+}
+ */
+
+
+.cards .button {
+    /* transition: all 200ms ease-in-out; */
+    text-transform: uppercase;
+    color: #fff;
+    font-family: roboto;
+    font-size: 16px;
+    background-color: #075da2;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.round__image img{
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.round__image  {
+    display: flex;
+    justify-content: center;
+}
+
+.cards h4 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card .item2 h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards li {
+    line-height: 20px;
+}
+
+.cards:has(ul) .text{
+    margin-bottom: 10px;
+}
+
+.cards:hover .button{
+    margin-bottom: -10px;
+}
+
+.cards:hover {
+    transition: all 200ms ease-in-out;
+    background-color: #fff;
+    filter: drop-shadow(2px 3.5px 7px  rgba(155, 182, 190, 0.75));
+    border-radius: 2px;
+}
+
+.cards:hover::after {
+    transition: all 200ms ease-in-out;
+    content: '';
+    width: 0;
+	height: 0;
+	border-top: 30px solid #fff; 
+	border-right: 30px solid transparent;
+    position: relative;
+    display: inline-block;
+    top: 29px;
+    left: -10px;
+    
+} 
+
+.card .button:hover, .card .button:active{
+    background-color: #caddea;
+    color: #1b7fd0;
+}
+
+.f2 {
+    transition: all 200ms ease-in-out;
+    display: none;
+}
+
+.cards:hover .round__image .f1 {
+    transition: all 200ms ease-in-out;
+    display: none;
+}
+
+.cards:hover .round__image .f2 {
+    display: block;
+    transition: all 200ms ease-in-out;
 }
