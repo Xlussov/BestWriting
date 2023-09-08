@@ -161,7 +161,7 @@
 }
 
 .cards:hover {
-    transition: all 200ms ease-in-out;
+    /* transition: all 200ms ease-in-out; */
     background-color: #fff;
     filter: drop-shadow(2px 3.5px 7px  rgba(155, 182, 190, 0.75));
     border-radius: 2px;
@@ -182,21 +182,22 @@
 } 
 
 .card .button:hover, .card .button:active{
+    transition: all 200ms ease-in-out;
     background-color: #caddea;
     color: #1b7fd0;
 }
 
 .f2 {
-    transition: all 200ms ease-in-out;
+    /* transition: all 200ms ease-in-out; */
     display: none;
 }
 
 .cards:hover .round__image .f1 {
-    transition: all 200ms ease-in-out;
+    /* transition: all 200ms ease-in-out; */
     display: none;
 }
 
 .cards:hover .round__image .f2 {
     display: block;
-    transition: all 200ms ease-in-out;
+    /* transition: all 200ms ease-in-out; */
 }

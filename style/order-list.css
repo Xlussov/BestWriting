@@ -1,0 +1,41 @@
+@import url(../css/root.css);
+.order-list {
+    background-color: var(--colorLightBlue);
+    background-image: url(../images/Svg/Bg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 30px;
+}
+
+.order-list .text {
+    font-size: 24px;
+    color: #e9f7fe;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.order-list .items > p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    line-height: 25px;
+    margin: 20px 0px 0px;
+    padding-bottom: 20px;
+}
+
+.order-list .items .number p{
+    font-family: robotobold;
+    font-size: 25px;
+    color: #1b7fd0;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline;
+    padding: 0px 10px;
+}
+
+.order-list .items {
+    margin: 30px 0px;
+}
