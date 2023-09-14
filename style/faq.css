@@ -1,0 +1,30 @@
+.faq-input {
+    width: 0px;
+    height: 0px;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: absolute;
+} 
+
+.faq-text {
+    display: none;
+    color: black;
+}
+
+
+.faq-input:checked ~ .faq-text {
+    display: block;
+}
+
+.acordion .items {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.faq-lable {
+    display: block;
+    color: black;
+    cursor: pointer;
+}

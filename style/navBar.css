@@ -46,4 +46,37 @@ nav .bg-main1 {
 }
 
 
+.header_link  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_link a {
+    transition: 200ms all ease-in-out;
+    font-family: roboto;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+
+.header_link a:hover {
+    background-color: #caddea;
+}
+
+.menu {
+    width: 50px;
+}
+
+.menu-wrap {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1400px){
+    .navbar li div{
+        margin: 12px 18px;
+    }
+}
 
