@@ -1,3 +1,8 @@
+
+
+
+
+
 .faq-input {
     width: 0px;
     height: 0px;
@@ -9,22 +14,193 @@
 } 
 
 .faq-text {
+    position: relative;
     display: none;
-    color: black;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 2px 3.5px 7px 0 rgba(167, 192, 200, 0.75);
+    background-color: #fff;
+    padding: 45px;
+    height: 470px;
 }
 
 
-.faq-input:checked ~ .faq-text {
-    display: block;
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+.faq-input1:checked ~ .faq-text1, .faq-input2:checked ~ .faq-text2,
+.faq-input3:checked ~ .faq-text3, .faq-input4:checked ~ .faq-text4, 
+.faq-input5:checked ~ .faq-text5, .faq-input6:checked ~ .faq-text6{
+    display: flex;
 }
 
-.acordion .items {
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+.faq-input1:checked ~ .faq-title3, 
+.faq-input1:checked ~ .faq-title4,
+.faq-input1:checked ~ .faq-title5, 
+.faq-input1:checked ~ .faq-title6,
+
+.faq-input2:checked ~ .faq-title4, 
+.faq-input2:checked ~ .faq-title5,
+.faq-input2:checked ~ .faq-title6,
+
+.faq-input3:checked ~ .faq-title5, 
+.faq-input3:checked ~ .faq-title6, 
+
+.faq-input4:checked ~ .faq-title6,
+
+.faq-input1:checked ~ .faq-title2, 
+.faq-input2:checked ~ .faq-title3, 
+.faq-input3:checked ~ .faq-title4, 
+.faq-input4:checked ~ .faq-title5,
+.faq-input5:checked ~ .faq-title6{
+    position: relative;
+    top: -395px;
+} 
+
+ 
+/* {
+    position: relative;
+    top: -395px;
+} */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+.faq-input1:checked ~ .faq-title1 h4, .faq-input2:checked ~ .faq-title2 h4,
+.faq-input3:checked ~ .faq-title3 h4, .faq-input4:checked ~ .faq-title4 h4,
+.faq-input5:checked ~ .faq-title5 h4, .faq-input6:checked ~ .faq-title6 h4{
+    color: #fff;
+    font-size: 21px;
+} 
+
+
+.faq-input3:checked ~ .faq-title3 h4, .faq-input4:checked ~ .faq-title4 h4{
+    color: #fff;
+    font-size: 20px;
+} 
+
+.faq-input:checked + .faq-title div{
+    background-color: #075da2;
+}
+
+.faq-title div:hover {
+    background-color: #075da2;
+}
+
+.faq-title div:hover h4{
+    color: #fff;
+}
+
+
+/* .acordion .item{
     border: 2px solid red;
     padding: 10px;
+} */
+
+.faq-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+    position: absolute;
 }
 
-.faq-lable {
-    display: block;
-    color: black;
+.faq-title{
     cursor: pointer;
+    display: block;
+    /* margin-bottom: 13px; */
+    /* padding: 13px 0px; */
 }
+
+.faq-title div{
+
+    /* margin: 6px 0px; */
+    /* border-bottom: 1px solid #caddea; */
+}
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+.faq-input1:checked ~ .faq-title1::before,
+.faq-input2:checked ~ .faq-title2::before,
+.faq-input3:checked ~ .faq-title3::before,
+.faq-input4:checked ~ .faq-title4::before,
+.faq-input5:checked ~ .faq-title5::before,
+.faq-input6:checked ~ .faq-title6::before {
+    content: "";
+    z-index: 2;
+    left: 1028px;
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 37px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 37px solid transparent;
+}
+
+
+
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+.faq-text2 {
+    top: calc(-53px + (-22px));
+}
+
+.faq-text3 {
+    top: calc(-106px + (-44px));
+}
+
+.faq-text4 {
+    top: calc(-159px + (-66px));
+}
+
+.faq-text5 {
+    top: calc( -212px + (-88px));
+}
+
+.faq-text6 {
+    top: calc(-265px + (-110px));
+}
+
+
+.faq-title span {
+    font-family: Rajdhani;
+    font-size: 59.5px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #caddea;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.faq-title h4 {
+    font-family: robotobold;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1b7fd0;
+}
+
+.faq-title1 h4 {
+   margin-left: 10px;
+}
+
+.faq-title span {
+    display: block;
+}
+
+.faq-title div{
+    display: flex;
+    align-items: center;
+    padding: 17px 0px;
+    border-bottom: 1px solid #caddea;
+}
+
+.faq-title6 div{
+    border-bottom: none;
+}
+
+
+.faq-text img {
+    width: 120px;
+    margin-bottom: 70px;
+}
+
+.faq-text:nth-child(2){
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end; 
+}
+
