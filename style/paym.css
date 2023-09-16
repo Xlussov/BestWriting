@@ -1,0 +1,58 @@
+.payment {
+    background-color: #caddea;
+    padding: 15px;
+}
+
+.payment__cards img {
+    width: 100px;
+}
+
+.facebook a::before {
+    transition: 200ms all ease-in-out;
+    display: inline-block;
+    content: url(../images/Svg/Facebook.svg);
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+.facebook a:hover::before {
+    transition: 200ms all ease-in-out;
+    content: url(../images/Svg/Facebook2.svg);
+}
+
+
+.twetter a::before {
+    transition: 200ms all ease-in-out;
+    display: inline-block;
+    content: url(../images/Svg/Twiter.svg);
+    width: 45px;
+    height: 20px;
+    margin-right: 40px;
+}
+
+.twetter a:hover::before {
+    transition: 200ms all ease-in-out;
+    content: url(../images/Svg/Twiter2.svg);
+}
+
+
+.pinterest a::before {
+    transition: 200ms all ease-in-out;
+    display: inline-block;
+    content: url(../images/Svg/Pinterest.svg);
+    width: 33px;
+    height: 20px;
+}
+
+.pinterest a:hover::before {
+    transition: 200ms all ease-in-out;
+    content: url(../images/Svg/Pinterest2.svg);
+}
+
+
+.socnet {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

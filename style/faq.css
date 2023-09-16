@@ -1,6 +1,10 @@
-
-
-
+.acordion-block {
+    background-color: #f4f6fa;
+    background-image: url(../images/Svg/Bg3.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* background-size: cover; */
+}
 
 
 .faq-input {
@@ -23,6 +27,7 @@
     background-color: #fff;
     padding: 45px;
     height: 470px;
+    margin-bottom: -395px;
 }
 
 
@@ -34,7 +39,7 @@
 }
 
 /*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
-.faq-input1:checked ~ .faq-title3, 
+/* .faq-input1:checked ~ .faq-title3, 
 .faq-input1:checked ~ .faq-title4,
 .faq-input1:checked ~ .faq-title5, 
 .faq-input1:checked ~ .faq-title6,
@@ -55,7 +60,7 @@
 .faq-input5:checked ~ .faq-title6{
     position: relative;
     top: -395px;
-} 
+}  */
 
  
 /* {
@@ -80,13 +85,13 @@
     background-color: #075da2;
 }
 
-.faq-title div:hover {
+/* .faq-title div:hover {
     background-color: #075da2;
-}
+} */
 
-.faq-title div:hover h4{
+/* .faq-title div:hover h4{
     color: #fff;
-}
+} */
 
 
 /* .acordion .item{
@@ -105,6 +110,7 @@
 .faq-title{
     cursor: pointer;
     display: block;
+    position: relative;
     /* margin-bottom: 13px; */
     /* padding: 13px 0px; */
 }
@@ -123,7 +129,7 @@
 .faq-input6:checked ~ .faq-title6::before {
     content: "";
     z-index: 2;
-    left: 1028px;
+    left: 759px;
     position: absolute;
     width: 0;
 	height: 0;
@@ -190,8 +196,8 @@
 
 .faq-title6 div{
     border-bottom: none;
+    margin-bottom: 30px;
 }
-
 
 .faq-text img {
     width: 120px;
@@ -204,3 +210,26 @@
    justify-content: flex-end; 
 }
 
+.acordion-block .order__wrap {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.order__wrap .order::before{
+    transition: 200ms all ease-in-out;
+    content: '';
+    width: 0;
+	height: 0;
+	border-top: 15px solid #d00; 
+	border-right: 20px solid transparent;
+    position: absolute;
+    left: 0px;
+    top: 33px;
+    display: inline-block;
+} 
+
+.order__wrap .order:hover::before, .order:active::before {
+    transition: 200ms all ease-in-out;
+    border-top: 15px solid #a40000;
+}
