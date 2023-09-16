@@ -1,0 +1,54 @@
+.footer {
+    background-color: var(--colorDarkBlue);
+    background-image: url(../images/Svg/Bg3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0px;
+}
+
+
+.navlist a {
+    font-family: 'Arial Narrow','Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #caddea;
+}
+
+.footer img{
+    margin-top: 15px;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+footer a {
+    transition: 200ms all ease-in-out;
+    font-family: roboto;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+} 
+
+footer .vl {
+    transform: rotate(180deg);
+    border: 1.5px solid white;
+    border-radius: 2px;
+    height: 15px;
+    z-index: 0;
+}
+
+.footer p {
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #caddea;
+}   
+

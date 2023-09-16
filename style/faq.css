@@ -204,6 +204,15 @@
     margin-bottom: 70px;
 }
 
+.faq-text .blue-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',  Arial, sans-serif;
+    font-size: 18px;
+    color: #1b7fd0;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
 .faq-text:nth-child(2){
    display: flex;
    flex-direction: column;
