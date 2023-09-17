@@ -87,10 +87,3 @@ header a {
     color: var(--colorBtnTextHover);
 }
 
-@media screen and (max-width: 1200px) {
-    .bg-main2 .item1 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}

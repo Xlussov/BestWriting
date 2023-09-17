@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
     <title>BestWriting</title>
 </head>
 <body>
@@ -16,14 +17,6 @@
         <div class="container-fluid bg-main2">
             <div class="container">
                 <div class="row">
-                    <!-- <div class="col-6 item1 items">
-                        <span>Sales toll free: <a href="#">1 (877) 894-0925</a></span>
-                        <span class="num">Support toll free: <a href="#">1 (888) 901-8317</a></span>
-                    </div>
-                    <div class="col-6 item2 items">
-                        <a class="login" href="#">Login</a>
-                        <a class="live__chat" href="#">Live Chat</a>
-                    </div> -->
                     <div class="col-xl-7 col-lg-12 item1 items phone">
                         <span>Sales toll free: <a href="#">1 (877) 894-0925</a></span>
                         <span class="num">Support toll free: <a href="#">1 (888) 901-8317</a></span>
@@ -80,7 +73,7 @@
                         <div class="ss-content__logo">
                             <img src="./images/Logo.svg" alt="alt">
                         </div>
-                        <div class="ss-content__plank">
+                        <div class="card__plank">
                             <h1>Things go Better with Us!</h1>
                         </div>
                         <div class="ss-content__list">
@@ -136,34 +129,30 @@
                 </div>
                 <div class="option__select row">
                     <div class="row">
-                    <!-- <form action="#" method="post"> -->
-                        <!-- <div class="row"> -->
-                            <div class="col-4 opt">
-                                <p>TITLE OF YOUR PAPER</p>
-                                <select name="" id="">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                            <div class="col-4 opt">
-                                <p>ACADEMIC LEVEL</p>
-                                <select name="" id="">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                            <div class="col-4 opt">
-                                <p>SPACING</p>
-                                <select name="" id="">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                            <div class="col-4 opt">
-                                <p>URGENCY</p>
-                                <select name="" id="">
-                                    <option value=""></option>
-                                </select>
-                            </div>
-                        <!-- </div> -->
-                    <!-- </form> -->
+                        <div class="col-4 opt">
+                            <p>TITLE OF YOUR PAPER</p>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="col-4 opt">
+                            <p>ACADEMIC LEVEL</p>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="col-4 opt">
+                            <p>SPACING</p>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="col-4 opt">
+                            <p>URGENCY</p>
+                            <select name="" id="">
+                                <option value=""></option>
+                            </select>
+                        </div>
                     <div class="option__price col-4"> 
                         <p class="price_flex"><span class="opt__text">Total price </span><span class="opt__sl">16.99 </span><span class="opt__usd">USD</span></p>
                     </div>
@@ -320,179 +309,93 @@
                     <h2>How it works</h2>
                 </div>
                 <div class="acordion row">
-                   <!-- div.item$.items*6>input.faq-input[type='radio']+lable.faq-lable+p.faq-text     -->
-                    <!-- div.item$.items*6>lable.faq-lable[for='faq$']+input.faq-input[type='radio' name='faq' id='faq$']+p.faq-text  -->
-                    <!-- <div class="item1 items row">
-                        <input type="radio" class="faq-input" name="faq" id="faq_1">
-                        <lable class="faq-lable " for="faq_1">lorem5</lable>
-                        <div class="faq-text ">
-                            <p class="">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat eum nisi dolorum, eaque aperiam     adipisci iste reiciendis necessitatibus corporis laudantium atque distinctio. Molestiae eligendi ad culpa saepe quis quo sequi.</p>
+                    <input type="radio" class="faq-input faq-input1" name="faq" id="faq_1" checked>
+                    <label class="faq-title col-7 faq-title1" for="faq_1">
+                        <div>
+                            <span>1</span><h4>Make your way to the order page and complete</h4>
+                        </div>
+                    </label>  
+                    <div class="faq-text faq-text1 col-5">
+                        <div>
+                            <img src="./images/Svg/Works1.svg" alt="img">
+                        </div>
+                        <p class="blue-text">the form with a description of your requirements</p>
+                        <div>
+                            <p class="text">Take care to provide all your contact information correctly e.g. your telephone number and email address. We remain in constant contact with customers for the duration of their project. We will use your telephone number and email as our main means of contacting you. Be careful to provide accurate information and describe your requirements in full. Our writer will precisely adhere to the instructions on the form</p>
                         </div>
                     </div>
-                    <div class="item2 items row">
-                        <input type="radio" class="faq-input" name="faq" id="faq_2">
-                        <lable class="faq-lable " for="faq_2">lorem4</lable>
-                        <div class="faq-text ">
-                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quo facere distinctio nostrum molestiae hic mollitia exercitationem odio vitae accusamus sapiente fugit sint, omnis, dolorum ut soluta obcaecati minima unde.</p>
+                    <input type="radio" class="faq-input faq-input2" name="faq" id="faq_2" checked>
+                    <label class="faq-title faq-title2 col-7" for="faq_2">
+                        <div>
+                            <span>2</span><h4>Continue to the payment page</h4>
                         </div>
-                    </div> -->
-                    <!-- <div class="item3 items">
-                        <lable class="faq-lable" for="faq3">lorem5</lable>
-                        <input type="radio" class="faq-input" name="faq" id="faq3">
-                        <p class="faq-text"></p>
-                    </div>
-                    <div class="item4 items">
-                        <lable class="faq-lable" for="faq4">lorem5</lable>
-                        <input type="radio" class="faq-input" name="faq" id="faq4">
-                        <p class="faq-text"></p>
-                    </div>
-                    <div class="item5 items">
-                        <lable class="faq-lable" for="faq5">lorem5</lable>
-                        <input type="radio" class="faq-input" name="faq" id="faq5">
-                        <p class="faq-text"></p>
-                    </div>
-                    <div class="item6 items">
-                        <lable class="faq-lable" for="faq6">lorem5</lable>
-                        <input type="radio" class="faq-input" name="faq" id="faq6">
-                        <p class="faq-text"></p>
-                    </div> -->
-
-
-
-
-
-
-
-                    <!-- <div class="item1 items row">
-                        <input type="radio" class="faq-input" name="faq" id="faq_1">
-                        <lable class="faq-lable " for="faq_1">lorem5</lable>
-                        <div class="faq-text ">
-                            <p class="">Lorem ipsum dolor sit amet consectetur  adipisicing elit. Fugiat eum nisi dolorum, eaque aperiam     adipisci iste reiciendis necessitatibus corporis laudantium atque distinctio. Molestiae eligendi ad culpa saepe quis quo sequi.</p>
+                    </label>
+                    <div class="faq-text faq-text2 col-5">
+                        <div>
+                           <img src="./images/Svg/Works2.svg" alt="img">
+                        </div>
+                        <div>
+                            <p class="text">We calculate the deadline from the minute we receive your payment. The writer we allocate will only begin conducting research after your payment has been received. We guarantee a full refund, which means we will give you your money back if you are in any way dissatisfied with the service you receive. We may ask you for identification verification. This is our method of ensuring you are actually the person who ordered the paper.</p>
                         </div>
                     </div>
-                    <div class="item2 items row">
-                        <input type="radio" class="faq-input" name="faq" id="faq_2">
-                        <lable class="faq-lable " for="faq_2">lorem4</lable>
-                        <div class="faq-text ">
-                            <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quo facere distinctio nostrum molestiae hic mollitia exercitationem odio vitae accusamus sapiente fugit sint, omnis, dolorum ut soluta obcaecati minima unde.</p>
+                    <input type="radio" class="faq-input faq-input3" name="faq" id="faq_3" checked>
+                    <label class="faq-title faq-title3 col-7" for="faq_3">
+                        <div>
+                            <span>3</span><h4>Monitor your email for confirmation of your order and save</h4>
+                        </div>
+                    </label> 
+                    <div class="faq-text faq-text3 col-5">
+                        <div>
+                            <img src="./images/Svg/Works3.svg" alt="img">
+                        </div>
+                        <p class="blue-text">this in case you need to refer to it in the future</p>
+                        <div>
+                            <p class="text">We will confirm your order by email and provide all the information needed to ensure our joint cooperation is a mutually beneficial one. In this, you will find answers to all your questions; it will tell you how to communicate with your writer and our support team and show you how to add any further files/materials if you need to. You should store this information in case you need to refer to it in the future.</p>
                         </div>
                     </div>
-
- -->
-
-
-
-                    <!-- <div class="item1 item row" id="faq1"> -->
-                        <input type="radio" class="faq-input faq-input1" name="faq" id="faq_1" checked>
-                        <label class="faq-title col-7 faq-title1" for="faq_1">
-                            <div>
-                                <span>1</span><h4>Make your way to the order page and complete</h4>
-                            </div>
-                        </label>  
-                        <!-- <input type="radio" class="faq-input faq-input1" name="faq" id="faq_1" checked> -->
-                        <div class="faq-text faq-text1 col-5">
-                            <div>
-                                <img src="./images/Svg/Works1.svg" alt="img">
-                            </div>
-                            <p class="blue-text">the form with a description of your requirements</p>
-                            <div>
-                                <p class="text">Take care to provide all your contact information correctly e.g. your telephone number and email address. We remain in constant contact with customers for the duration of their project. We will use your telephone number and email as our main means of contacting you. Be careful to provide accurate information and describe your requirements in full. Our writer will precisely adhere to the instructions on the form</p>
-                            </div>
+                    <input type="radio" class="faq-input faq-input4" name="faq" id="faq_4" checked>
+                    <label class="faq-title faq-title4 col-7" for="faq_4">
+                       <div>
+                            <span>4</span><h4>Use your personal account area to contact your writer and our support personnel</h4>
+                       </div>
+                    </label>  
+                    <div class="faq-text faq-text4 col-5">
+                        <div>
+                            <img src="./images/Svg/Works4.svg" alt="img">
                         </div>
-                    <!-- </div> -->
-                    <!-- <div class="item2 item row" id="faq2"> -->
-                        <input type="radio" class="faq-input faq-input2" name="faq" id="faq_2" checked>
-                        <label class="faq-title faq-title2 col-7" for="faq_2">
-                            <div>
-                                <span>2</span><h4>Continue to the payment page</h4>
-                            </div>
-                        </label>
-                        <!-- <input type="radio" class="faq-input faq-input2" name="faq" id="faq_2" checked> -->
-                        <div class="faq-text faq-text2 col-5">
-                             <!-- <p class="italic">Anim pariatur cliderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> -->
-                            <div>
-                               <img src="./images/Svg/Works2.svg" alt="img">
-                            </div>
-                            <div>
-                                <p class="text">We calculate the deadline from the minute we receive your payment. The writer we allocate will only begin conducting research after your payment has been received. We guarantee a full refund, which means we will give you your money back if you are in any way dissatisfied with the service you receive. We may ask you for identification verification. This is our method of ensuring you are actually the person who ordered the paper.</p>
-                            </div>
+                        <p class="blue-text">keep a regular eye on your email fo status reports</p>
+                        <div>
+                            <p class="text">You can send messages to your writer if you have any queries and he/she will be on hand to respond to you via the same channel. You may update the information you originally provided, but if you make changes to the instructions, the size of your assignment, the service level, the deadline or the type of paper, you may be asked to pay an additional fee to allow us to handle your new requirements. Don't panic if you don't receive an immediate response from your writer. They may not check their messages continuously, but they will be working on your paper.</p>
                         </div>
-                    <!-- </div> -->
-                    <!-- <div class="item3 item row" id="faq3"> -->
-                        <input type="radio" class="faq-input faq-input3" name="faq" id="faq_3" checked>
-                        <label class="faq-title faq-title3 col-7" for="faq_3">
-                            <div>
-                                <span>3</span><h4>Monitor your email for confirmation of your order and save</h4>
-                            </div>
-                        </label> 
-                        <!-- <input type="radio" class="faq-input faq-input3" name="faq" id="faq_3" checked> -->
-                        <div class="faq-text faq-text3 col-5">
-                             <!-- <p class="italic">Anim pariahe reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> -->
-                            <div>
-                                <img src="./images/Svg/Works3.svg" alt="img">
-                            </div>
-                            <p class="blue-text">this in case you need to refer to it in the future</p>
-                            <div>
-                                <p class="text">We will confirm your order by email and provide all the information needed to ensure our joint cooperation is a mutually beneficial one. In this, you will find answers to all your questions; it will tell you how to communicate with your writer and our support team and show you how to add any further files/materials if you need to. You should store this information in case you need to refer to it in the future.</p>
-                            </div>
+                    </div>
+                    <input type="radio" class="faq-input faq-input5" name="faq" id="faq_5" checked>
+                    <label class="faq-title faq-title5 col-7" for="faq_5">
+                        <div>
+                            <span>5</span><h4>Use the link from our email to download your paper</h4>
                         </div>
-                    <!-- </div> -->
-                    <!-- <div class="item4 item row" id="faq4"> -->
-                        <input type="radio" class="faq-input faq-input4" name="faq" id="faq_4" checked>
-                        <label class="faq-title faq-title4 col-7" for="faq_4">
-                           <div>
-                                <span>4</span><h4>Use your personal account area to contact your writer and our support personnel</h4>
-                           </div>
-                        </label>  
-                        <!-- <input type="radio" class="faq-input faq-input4" name="faq" id="faq_4" checked> -->
-                        <div class="faq-text faq-text4 col-5">
-                             <!-- <p class="italic"> cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> -->
-                            <div>
-                                <img src="./images/Svg/Works4.svg" alt="img">
-                            </div>
-                            <p class="blue-text">keep a regular eye on your email fo status reports</p>
-                            <div>
-                                <p class="text">You can send messages to your writer if you have any queries and he/she will be on hand to respond to you via the same channel. You may update the information you originally provided, but if you make changes to the instructions, the size of your assignment, the service level, the deadline or the type of paper, you may be asked to pay an additional fee to allow us to handle your new requirements. Don't panic if you don't receive an immediate response from your writer. They may not check their messages continuously, but they will be working on your paper.</p>
-                            </div>
+                    </label>  
+                    <div class="faq-text faq-text5 col-5">
+                        <div>
+                            <img src="./images/Svg/Works5.svg" alt="img">
                         </div>
-                    <!-- </div> -->
-                    <!-- <div class="item5 item row" id="faq5"> -->
-                        <input type="radio" class="faq-input faq-input5" name="faq" id="faq_5" checked>
-                        <label class="faq-title faq-title5 col-7" for="faq_5">
-                            
-                            <div>
-                                <span>5</span><h4>Use the link from our email to download your paper</h4>
-                            </div>
-                        </label>  
-                        <!-- <input type="radio" class="faq-input faq-input5" name="faq" id="faq_5" checked> -->
-                        <div class="faq-text faq-text5 col-5">
-                             <!-- <p class="italic">Anim pariatur clicit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> -->
-                            <div>
-                                <img src="./images/Svg/Works5.svg" alt="img">
-                            </div>
-                            <div>
-                                <p class="text">Monitor your email as the deadline gets close. We will notify you when your order is complete and our email will have a link to your personal account area where you can download your paper. Alternatively, we can send your work by email if you have difficulty downloading it.</p>
-                            </div>
+                        <div>
+                            <p class="text">Monitor your email as the deadline gets close. We will notify you when your order is complete and our email will have a link to your personal account area where you can download your paper. Alternatively, we can send your work by email if you have difficulty downloading it.</p>
                         </div>
-                    <!-- </div> -->
-                    <!-- <div class="item3 item row" id="faq6"> -->
-                        <input type="radio" class="faq-input faq-input6" name="faq" id="faq_6" checked>
-                        <label class="faq-title faq-title6 col-7" for="faq_6">
-                            <div>
-                                <span>6</span><h4>Give us feedback!</h4>
-                            </div>
-                        </label>  
-                        <!-- <input type="radio" class="faq-input faq-input6" name="faq" id="faq_6" checked> -->
-                        <div class="faq-text faq-text6 col-5">
-                             <!-- <p class="italic">Anim parehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p> -->
-                            <div>
-                                <img src="./images/Svg/Works6.svg" alt="img">
-                            </div>
-                            <div>
-                                <p class="text">Let us know what you think of your paper once you have reviewed it. Our email will contain a link to our customer satisfaction survey form. Please feel free to fill it in. You may also request revisions within two weeks following the deadline. Revisions will be free unless you modify your original instructions.</p>
-                            </div>
+                    </div>
+                    <input type="radio" class="faq-input faq-input6" name="faq" id="faq_6" checked>
+                    <label class="faq-title faq-title6 col-7" for="faq_6">
+                        <div>
+                            <span>6</span><h4>Give us feedback!</h4>
                         </div>
-                    <!-- </div> -->
+                    </label>  
+                    <div class="faq-text faq-text6 col-5">
+                        <div>
+                            <img src="./images/Svg/Works6.svg" alt="img">
+                        </div>
+                        <div>
+                            <p class="text">Let us know what you think of your paper once you have reviewed it. Our email will contain a link to our customer satisfaction survey form. Please feel free to fill it in. You may also request revisions within two weeks following the deadline. Revisions will be free unless you modify your original instructions.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="order__wrap">
                     <div class="order">

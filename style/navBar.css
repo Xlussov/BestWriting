@@ -24,7 +24,6 @@ nav .bg-main1 {
 }
 
 .navbar li:hover, .navbar li:active{
-    /* transition: 400ms background-color ease-in-out;  */
     background-color: #caddea;
     box-shadow: 5px 0px 0px 0px #caddea,
             -5px 0px 0px 0px #caddea;
@@ -44,7 +43,6 @@ nav .bg-main1 {
     height: 20px;
     z-index: 0;
 }
-
 
 .header_link  {
     display: flex;
@@ -72,11 +70,5 @@ nav .bg-main1 {
 .menu-wrap {
     display: flex;
     align-items: center;
-}
-
-@media screen and (max-width: 1400px){
-    .navbar li div{
-        margin: 12px 18px;
-    }
 }
 

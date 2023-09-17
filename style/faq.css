@@ -3,9 +3,8 @@
     background-image: url(../images/Svg/Bg3.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    /* background-size: cover; */
-}
 
+}
 
 .faq-input {
     width: 0px;
@@ -38,35 +37,6 @@
     display: flex;
 }
 
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
-/* .faq-input1:checked ~ .faq-title3, 
-.faq-input1:checked ~ .faq-title4,
-.faq-input1:checked ~ .faq-title5, 
-.faq-input1:checked ~ .faq-title6,
-
-.faq-input2:checked ~ .faq-title4, 
-.faq-input2:checked ~ .faq-title5,
-.faq-input2:checked ~ .faq-title6,
-
-.faq-input3:checked ~ .faq-title5, 
-.faq-input3:checked ~ .faq-title6, 
-
-.faq-input4:checked ~ .faq-title6,
-
-.faq-input1:checked ~ .faq-title2, 
-.faq-input2:checked ~ .faq-title3, 
-.faq-input3:checked ~ .faq-title4, 
-.faq-input4:checked ~ .faq-title5,
-.faq-input5:checked ~ .faq-title6{
-    position: relative;
-    top: -395px;
-}  */
-
- 
-/* {
-    position: relative;
-    top: -395px;
-} */
 /*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ*/
 .faq-input1:checked ~ .faq-title1 h4, .faq-input2:checked ~ .faq-title2 h4,
 .faq-input3:checked ~ .faq-title3 h4, .faq-input4:checked ~ .faq-title4 h4,
@@ -85,20 +55,6 @@
     background-color: #075da2;
 }
 
-/* .faq-title div:hover {
-    background-color: #075da2;
-} */
-
-/* .faq-title div:hover h4{
-    color: #fff;
-} */
-
-
-/* .acordion .item{
-    border: 2px solid red;
-    padding: 10px;
-} */
-
 .faq-input {
     appearance: none;
     -webkit-appearance: none;
@@ -112,8 +68,6 @@
     display: block;
     position: relative;
     border-radius: 3px;
-    /* margin-bottom: 13px; */
-    /* padding: 13px 0px; */
 }
 
 /*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
@@ -242,73 +196,5 @@
 .order__wrap .order:hover::before, .order:active::before {
     transition: 200ms all ease-in-out;
     border-top: 15px solid #a40000;
-}
-
-@media screen and (max-width:1400px){
-    .faq-input1:checked ~ .faq-title1::before,
-    .faq-input2:checked ~ .faq-title2::before,
-    .faq-input3:checked ~ .faq-title3::before,
-    .faq-input4:checked ~ .faq-title4::before,
-    .faq-input5:checked ~ .faq-title5::before,
-    .faq-input6:checked ~ .faq-title6::before {
-    content: "";
-    z-index: 2;
-    left: 654px;
-    top: -1px;
-    border-top: 38.5px solid transparent;
-	border-left: 30px solid #075da2;
-	border-bottom: 38.5px solid transparent;
-    }
-
-    .faq-input5:checked ~ .faq-title5::before {
-    content: "";
-    z-index: 2;
-    left: 654px;
-    top: -1px;
-    border-top: 39px solid transparent;
-    border-left: 30px solid #075da2;
-    border-bottom: 39px solid transparent;
-    }
-    
-}
-
-@media screen and (max-width: 1200px){
-    .faq-input1:checked ~ .faq-title1::before,
-    .faq-input2:checked ~ .faq-title2::before,
-    .faq-input3:checked ~ .faq-title3::before,
-    .faq-input4:checked ~ .faq-title4::before,
-    .faq-input5:checked ~ .faq-title5::before,
-    .faq-input6:checked ~ .faq-title6::before {
-    content: "";
-    z-index: 2;
-    left: 549px;
-    top: -1px;
-    border-top: 38.5px solid transparent;
-	border-left: 30px solid #075da2;
-	border-bottom: 38.5px solid transparent;
-}
-.faq-input4:checked ~ .faq-title4::before {
-    border-top: 48px solid transparent;
-	border-left: 30px solid #075da2;
-	border-bottom: 48px solid transparent;
-}
-.faq-input5:checked ~ .faq-title5::before {
-    border-top: 39px solid transparent;
-	border-left: 30px solid #075da2;
-	border-bottom: 39px solid transparent;
-}
-.faq-input1:checked ~ .faq-title1::before {
-    border-top: 39px solid transparent;
-	border-left: 30px solid #075da2;
-	border-bottom: 39px solid transparent;
-}
-.faq-text {
-    height: 530px;
-    margin-bottom: -455px;
-    padding: 25px;
-}
-.acordion {
-    padding-bottom: 50px;
-}
 }
 

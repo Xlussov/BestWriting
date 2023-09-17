@@ -11,6 +11,7 @@
 @import url(../style/faq.css);
 @import url(../style/paym.css);
 @import url(../style/footer.css);
+@import url(./media.css);
 
 /* ---------------- */
 
@@ -48,6 +49,29 @@ p.text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow',  Arial, sans-serif;
     font-size: 18px;
     color: var(--colorText);
+}
+
+
+.card__plank h2, .card__plank h1 {
+    background-color: #caddea;
+    padding: 20px 55px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card__plank {
+    filter: drop-shadow(2px 3.5px 7px rgba(155, 182, 190, 0.75));
+    margin-bottom: 50px;
+}
+
+.card__plank::before{
+    content: '';
+    width: 0;
+	height: 0;
+	border-top: 30px solid #caddea; 
+	border-right: 30px solid transparent;
+    position: relative;
+    top: 110px;
 }
 
 /* ---------------- */

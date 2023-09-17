@@ -57,15 +57,3 @@
     align-items: center;
 }
 
-@media screen and (max-width:1400px){
-    .payment__cards img {
-        width: 90px;
-    }
-}
-
-@media screen and (max-width:1200px){
-    .payment__cards img {
-        width: 80px;
-    }
-}
-

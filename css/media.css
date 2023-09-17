@@ -1,0 +1,127 @@
+/** ---==|-XL-|==-- */
+@media screen and (max-width:1400px){
+    /*! ---FAQ--- */
+    .faq-input1:checked ~ .faq-title1::before,
+    .faq-input2:checked ~ .faq-title2::before,
+    .faq-input3:checked ~ .faq-title3::before,
+    .faq-input4:checked ~ .faq-title4::before,
+    .faq-input5:checked ~ .faq-title5::before,
+    .faq-input6:checked ~ .faq-title6::before {
+        content: "";
+        z-index: 2;
+        left: 654px;
+        top: -1px;
+        border-top: 38.5px solid transparent;
+	    border-left: 30px solid #075da2;
+	    border-bottom: 38.5px solid transparent;
+    }
+
+    .faq-input5:checked ~ .faq-title5::before {
+        content: "";
+        z-index: 2;
+        left: 654px;
+        top: -1px;
+        border-top: 39px solid transparent;
+        border-left: 30px solid #075da2;
+        border-bottom: 39px solid transparent;
+    }
+    /*! ===FAQ=== */
+
+
+    /* !---FOOTER--- */
+    footer ul {
+        flex-wrap: wrap;
+    }
+    /*! ===FOOTER=== */
+
+
+    /* !---NAVBAR--- */
+    .navbar li div{
+        margin: 12px 18px;
+    }
+    /*! ===NAVBAR=== */
+
+
+    /* !---PAYM--- */
+    .payment__cards img {
+        width: 90px;
+    }
+    /*! ===PAYM=== */
+
+}
+
+/** ---==|-LG-|==-- */
+
+@media screen and (max-width: 1200px){
+    /* !---FAQ--- */
+    .faq-input1:checked ~ .faq-title1::before,
+    .faq-input2:checked ~ .faq-title2::before,
+    .faq-input3:checked ~ .faq-title3::before,
+    .faq-input4:checked ~ .faq-title4::before,
+    .faq-input5:checked ~ .faq-title5::before,
+    .faq-input6:checked ~ .faq-title6::before {
+    content: "";
+    z-index: 2;
+    left: 549px;
+    top: -1px;
+    border-top: 38.5px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 38.5px solid transparent;
+}
+    .faq-input4:checked ~ .faq-title4::before {
+        border-top: 48px solid transparent;
+    	border-left: 30px solid #075da2;
+    	border-bottom: 48px solid transparent;
+    }
+    .faq-input5:checked ~ .faq-title5::before {
+        border-top: 39px solid transparent;
+    	border-left: 30px solid #075da2;
+    	border-bottom: 39px solid transparent;
+    }
+    .faq-input1:checked ~ .faq-title1::before {
+        border-top: 39px solid transparent;
+    	border-left: 30px solid #075da2;
+    	border-bottom: 39px solid transparent;
+    }
+    .faq-text {
+        height: 530px;
+        margin-bottom: -455px;
+        padding: 25px;
+    }
+    .acordion {
+        padding-bottom: 50px;
+    }
+    /*! ===FAQ=== */
+
+
+    /* !---HEADER--- */
+    .bg-main2 .item1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    /*! ===HEADER=== */
+
+
+    /* !---OPTION--- */
+    .opt__text {
+        font-size: 12px;
+    }
+
+    .opt__sl {
+        font-size: 37px;
+    }
+
+    .opt__usd {
+        font-size: 20px;
+    }   
+    /*! ===OPTION=== */
+
+
+    /* !---PAYM--- */
+    .payment__cards img {
+        width: 80px;
+    }
+    /*! ===PAYM=== */
+}
+
