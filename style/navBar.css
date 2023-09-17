@@ -2,6 +2,7 @@ nav .bg-main1 {
     background-color: var(--colorLightBlue);
     box-shadow: 2px 3.5px 7px 0 #95aeb6;
     transition: 400ms all ease-in-out;
+    z-index: 5;
 }
 
 .navbar a{
@@ -62,13 +63,66 @@ nav .bg-main1 {
 .header_link a:hover {
     background-color: #caddea;
 }
-
-.menu {
+ .menu {
     width: 50px;
 }
 
-.menu-wrap {
+.menu {
     display: flex;
     align-items: center;
 }
+ 
 
+ /* !---BURGER_MENU--- */
+
+ 
+ .nav-input {
+    width: 0px;
+    height: 0px;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    position: absolute;
+} 
+
+.nav-text {
+    transition: 30ms all ease-in-out;
+    position: absolute;
+    display: none;
+    z-index: 3;
+    background-color: #075da2;
+    top: 104px;
+}
+
+.nav-text li{
+    transition: 300ms all ease-in-out;
+    font-family: robotobold;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    padding: 0px 40px;
+}
+
+.nav-text li:hover{
+    color: #075da2;
+    background-color: #caddea;
+}
+
+.nav-input:checked ~ .nav-text{
+    transition: 300ms all ease-in-out;
+    animation-name: navmenu;
+    animation-duration: 750ms;
+    
+    display: block;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.6);
+}
+
+@keyframes navmenu {
+    0%{
+        left: -500vh;
+    }
+    100%{
+        left: 0px;
+    }
+}

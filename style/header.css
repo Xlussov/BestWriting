@@ -2,6 +2,7 @@ header .bg-main2 {
     background-color: var(--colorDarkBlue);
     background-image: url(../images/Svg/Bg1.svg);
     padding: 20px;
+    z-index: 4;
 }
 
 header span, header a{

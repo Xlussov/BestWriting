@@ -55,14 +55,6 @@
     background-color: #075da2;
 }
 
-.faq-input {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 0;
-    height: 0;
-    position: absolute;
-}
-
 .faq-title{
     cursor: pointer;
     display: block;
