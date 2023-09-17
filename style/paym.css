@@ -56,3 +56,9 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media screen and (max-width:1200px){
+    .payment__cards img {
+        width: 80px;
+    }
+}

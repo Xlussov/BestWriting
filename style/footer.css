@@ -24,6 +24,7 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 25px 0px;
 }
 
@@ -34,6 +35,7 @@ footer a {
     color: #fff;
     padding: 10px 20px;
     text-transform: uppercase;
+    line-height: 30px;
 } 
 
 footer .vl {
@@ -51,4 +53,10 @@ footer .vl {
     text-align: center;
     color: #caddea;
 }   
+
+.navlist {
+    display: flex;
+    justify-content: center;
+}
+
 

@@ -31,14 +31,14 @@
 }
 
 
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
 .faq-input1:checked ~ .faq-text1, .faq-input2:checked ~ .faq-text2,
 .faq-input3:checked ~ .faq-text3, .faq-input4:checked ~ .faq-text4, 
 .faq-input5:checked ~ .faq-text5, .faq-input6:checked ~ .faq-text6{
     display: flex;
 }
 
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
 /* .faq-input1:checked ~ .faq-title3, 
 .faq-input1:checked ~ .faq-title4,
 .faq-input1:checked ~ .faq-title5, 
@@ -67,7 +67,7 @@
     position: relative;
     top: -395px;
 } */
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ*/
 .faq-input1:checked ~ .faq-title1 h4, .faq-input2:checked ~ .faq-title2 h4,
 .faq-input3:checked ~ .faq-title3 h4, .faq-input4:checked ~ .faq-title4 h4,
 .faq-input5:checked ~ .faq-title5 h4, .faq-input6:checked ~ .faq-title6 h4{
@@ -111,16 +111,12 @@
     cursor: pointer;
     display: block;
     position: relative;
+    border-radius: 3px;
     /* margin-bottom: 13px; */
     /* padding: 13px 0px; */
 }
 
-.faq-title div{
-
-    /* margin: 6px 0px; */
-    /* border-bottom: 1px solid #caddea; */
-}
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
 .faq-input1:checked ~ .faq-title1::before,
 .faq-input2:checked ~ .faq-title2::before,
 .faq-input3:checked ~ .faq-title3::before,
@@ -140,7 +136,7 @@
 
 
 
-/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ НАХУЙ */
+/*! НЕ ЛЕЗТЬ, ПОЛОМАЕТСЯ */
 .faq-text2 {
     top: calc(-53px + (-22px));
 }
@@ -199,6 +195,11 @@
     margin-bottom: 30px;
 }
 
+.faq-title {
+    position: relative;
+}
+
+
 .faq-text img {
     width: 120px;
     margin-bottom: 70px;
@@ -242,3 +243,72 @@
     transition: 200ms all ease-in-out;
     border-top: 15px solid #a40000;
 }
+
+@media screen and (max-width:1400px){
+    .faq-input1:checked ~ .faq-title1::before,
+    .faq-input2:checked ~ .faq-title2::before,
+    .faq-input3:checked ~ .faq-title3::before,
+    .faq-input4:checked ~ .faq-title4::before,
+    .faq-input5:checked ~ .faq-title5::before,
+    .faq-input6:checked ~ .faq-title6::before {
+    content: "";
+    z-index: 2;
+    left: 654px;
+    top: -1px;
+    border-top: 38.5px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 38.5px solid transparent;
+    }
+
+    .faq-input5:checked ~ .faq-title5::before {
+    content: "";
+    z-index: 2;
+    left: 654px;
+    top: -1px;
+    border-top: 39px solid transparent;
+    border-left: 30px solid #075da2;
+    border-bottom: 39px solid transparent;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    .faq-input1:checked ~ .faq-title1::before,
+    .faq-input2:checked ~ .faq-title2::before,
+    .faq-input3:checked ~ .faq-title3::before,
+    .faq-input4:checked ~ .faq-title4::before,
+    .faq-input5:checked ~ .faq-title5::before,
+    .faq-input6:checked ~ .faq-title6::before {
+    content: "";
+    z-index: 2;
+    left: 549px;
+    top: -1px;
+    border-top: 38.5px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 38.5px solid transparent;
+}
+.faq-input4:checked ~ .faq-title4::before {
+    border-top: 48px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 48px solid transparent;
+}
+.faq-input5:checked ~ .faq-title5::before {
+    border-top: 39px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 39px solid transparent;
+}
+.faq-input1:checked ~ .faq-title1::before {
+    border-top: 39px solid transparent;
+	border-left: 30px solid #075da2;
+	border-bottom: 39px solid transparent;
+}
+.faq-text {
+    height: 530px;
+    margin-bottom: -455px;
+    padding: 25px;
+}
+.acordion {
+    padding-bottom: 50px;
+}
+}
+
