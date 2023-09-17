@@ -75,7 +75,7 @@ nav .bg-main1 {
 
  /* !---BURGER_MENU--- */
 
- 
+
  .nav-input {
     width: 0px;
     height: 0px;
@@ -93,6 +93,7 @@ nav .bg-main1 {
     z-index: 3;
     background-color: #075da2;
     top: 104px;
+    left: 0px;
 }
 
 .nav-text li{
