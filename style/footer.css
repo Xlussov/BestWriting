@@ -24,7 +24,7 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 25px 0px;
 }
 
@@ -60,3 +60,9 @@ footer .vl {
 }
 
 
+@media screen and (max-width:1400px){
+    footer ul {
+        flex-wrap: wrap;
+    }
+    
+}
